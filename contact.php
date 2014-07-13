@@ -44,7 +44,7 @@ foreach($arr as $val)
 
                 <tr>
                   <td align="center" valign="middle"><?php echo $no; ?></td>
-                  <td align="center" valign="middle"><a href="index.php?page=campaign-summary&campid=<?php echo $val['camp_id']; ?>"><?php echo $val['name']; ?></a></td>
+                  <td align="center" valign="middle"><?php echo $val['name']; ?></td>
                   <td align="center" valign="middle"><?php echo $val['email']; ?></td>
                   <td align="center" valign="middle"><?php echo $val['phone']; ?></td>
   </tr>
